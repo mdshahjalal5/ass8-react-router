@@ -3,20 +3,14 @@ import Button from "./Button";
 import { AlignJustify } from "lucide-react";
 import { useState } from "react";
 import Menu from "./Menu";
+import Brand from "./Brand";
 
 const Nav = () => {
   const [open, setOpen] = useState(false);
   return (
     <header className="p-4 ">
       <nav className="flex-between border p-2 rounded-xl ">
-        <div className="flex-cente flex items-center gap-2">
-          <img src={logo} width={35} />
-          <h1 className=" max-sm:text-xl text-3xl font-semibold">
-            <span className="font-courgette text-skyy">Medical</span>
-            <span className="font-kaushan text-orangy">Hub</span>
-          </h1>
-        </div>
-
+        <Brand />
         {/* desktop device menu */}
         <Menu
           className={`max-sm:hidden flex gap-5 text-gray-600 font-semibold text-lg`}
