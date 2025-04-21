@@ -15,9 +15,10 @@ const cardVariants = {
   },
 };
 
-export default function ScrollCard({ children, style }) {
+export default function ScrollCard({ children, style, className }) {
   return (
     <motion.div
+      className={className}
       style={{
         overflow: "hidden",
         display: "flex",
