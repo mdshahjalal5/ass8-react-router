@@ -1,12 +1,15 @@
 # ass8-react-router
 
 ## Project Details
+
 - **GitHub URL:** https://github.com/mdshahjalal5/ass8-react-router
 - **Local Directory:** /run/media/sj/developer/web/L1B11/8mi/ass/ass8-react-router
 - **Username:** sj
 - **Created On:** 21/04/2025 10:20 পূর্বাহ্ণ সোম GMT+6
 - **Location:** Sharifpur, Gazipur, Dhaka
 
+bun add -D tailwindcss@3 postcss autoprefixer
+bunx tailwindcss init -p
 
 # React + Vite
 
@@ -20,3 +23,4 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
