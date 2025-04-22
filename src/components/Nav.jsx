@@ -9,7 +9,7 @@ const Nav = () => {
   const [open, setOpen] = useState(false);
   return (
     <header className="p-4 ">
-      <nav className="flex-between border p-2 rounded-xl ">
+      <nav className="flex-between border p-2 rounded-xl sticky z-[1000] top-4 bg-gray-200">
         <Brand />
         {/* desktop device menu */}
         <Menu

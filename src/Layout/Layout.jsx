@@ -8,10 +8,10 @@ const Layout = () => {
     <>
       <EnterAnimation className="sticky z-[1000] top-4">
         <Nav />
-        <Header />
       </EnterAnimation>
+      <Header />
 
-      <main className="min-h-[170vh]">
+      <main className="min-h-[60vh]">
         <Outlet />
       </main>
       <Footer />
