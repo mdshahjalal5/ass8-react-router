@@ -11,6 +11,7 @@ const Nav = () => {
     <header className="p-4 ">
       <nav className="flex-between border p-2 rounded-xl sticky z-[1000] top-4 bg-gray-200">
         <Brand />
+        {/**/}
         {/* desktop device menu */}
         <Menu
           className={`max-sm:hidden flex gap-5 text-gray-600 font-semibold text-lg`}
