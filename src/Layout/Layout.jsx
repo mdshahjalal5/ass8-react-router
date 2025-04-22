@@ -11,7 +11,7 @@ const Layout = () => {
       </EnterAnimation>
       <Header />
 
-      <main className="min-h-[60vh]">
+      <main className="min-h-[30vh] max-container">
         <Outlet />
       </main>
       <Footer />

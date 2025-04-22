@@ -1,0 +1,229 @@
+[
+  {
+    "name": "Dr. Tanvir Alam",
+    "qualifications": ["MBBS", "MD - General Medicine", "DNB"],
+    "registration_no": "BD 12451254",
+    "experience": "5+ Years",
+    "availability": ["Available", "Sunday", "Monday", "Thursday"],
+    "consultation_fee": {
+      "amount": 273,
+      "currency": "BDT",
+      "vat_included": true,
+      "note": "Per consultation"
+    },
+    "working_at": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
+    "profile_image": "doctor1.jpg"
+  },
+  {
+    "name": "Dr. Naimul Huda",
+    "qualifications": ["MBBS", "MD - Pediatrics", "DCH"],
+    "registration_no": "BD 12451255",
+    "experience": "10+ Years",
+    "availability": ["Available", "Tuesday", "Wednesday"],
+    "consultation_fee": {
+      "amount": 320,
+      "currency": "BDT",
+      "vat_included": true,
+      "note": "Per consultation"
+    },
+    "working_at": "Square Hospital, Dhaka",
+    "profile_image": "doctor2.jpg"
+  },
+  {
+    "name": "Dr. Ayman Rahman",
+    "qualifications": ["MBBS", "FCPS - Surgery"],
+    "registration_no": "BD 12451256",
+    "experience": "8+ Years",
+    "availability": ["Available", "Monday", "Thursday"],
+    "consultation_fee": {
+      "amount": 400,
+      "currency": "BDT",
+      "vat_included": true,
+      "note": "Per consultation"
+    },
+    "working_at": "Apollo Hospital, Dhaka",
+    "profile_image": "ayman_rahman.png"
+  },
+  {
+    "name": "Dr. Zubair Hasan",
+    "qualifications": ["MBBS", "MD - Dermatology"],
+    "registration_no": "BD 12451257",
+    "experience": "6+ Years",
+    "availability": ["Available", "Friday", "Sunday"],
+    "consultation_fee": {
+      "amount": 350,
+      "currency": "BDT",
+      "vat_included": true,
+      "note": "Per consultation"
+    },
+    "working_at": "United Hospital, Dhaka",
+    "profile_image": "zubair_hasan.png"
+  },
+  {
+    "name": "Dr. Imran Hossain",
+    "qualifications": ["MBBS", "MD - Internal Medicine"],
+    "registration_no": "BD 12451258",
+    "experience": "12+ Years",
+    "availability": ["Available", "Tuesday", "Saturday"],
+    "consultation_fee": {
+      "amount": 300,
+      "currency": "BDT",
+      "vat_included": true,
+      "note": "Per consultation"
+    },
+    "working_at": "Ibn Sina Hospital, Dhanmondi",
+    "profile_image": "imran_hossain.png"
+  },
+  {
+    "name": "Dr. Moinul Islam",
+    "qualifications": ["MBBS", "MS - Gynecology"],
+    "registration_no": "BD 12451259",
+    "experience": "9+ Years",
+    "availability": ["Available", "Sunday", "Wednesday"],
+    "consultation_fee": {
+      "amount": 330,
+      "currency": "BDT",
+      "vat_included": true,
+      "note": "Per consultation"
+    },
+    "working_at": "Popular Diagnostic Centre, Uttara",
+    "profile_image": "moinul_islam.png"
+  },
+  {
+    "name": "Dr. Ahsan Habib",
+    "qualifications": ["MBBS", "FCPS - Cardiology"],
+    "registration_no": "BD 12451260",
+    "experience": "15+ Years",
+    "availability": ["Available", "Saturday", "Tuesday"],
+    "consultation_fee": {
+      "amount": 500,
+      "currency": "BDT",
+      "vat_included": true,
+      "note": "Per consultation"
+    },
+    "working_at": "Labaid Specialized Hospital",
+    "profile_image": "ahsan_habib.png"
+  },
+  {
+    "name": "Dr. Rayhan Kabir",
+    "qualifications": ["MBBS", "MD - Endocrinology"],
+    "registration_no": "BD 12451261",
+    "experience": "7+ Years",
+    "availability": ["Available", "Monday", "Thursday"],
+    "consultation_fee": {
+      "amount": 375,
+      "currency": "BDT",
+      "vat_included": true,
+      "note": "Per consultation"
+    },
+    "working_at": "BIRDEM General Hospital",
+    "profile_image": "rayhan_kabir.png"
+  },
+  {
+    "name": "Dr. Niloy Rahman",
+    "qualifications": ["MBBS", "FCPS - Neurology"],
+    "registration_no": "BD 12451262",
+    "experience": "11+ Years",
+    "availability": ["Available", "Sunday", "Wednesday"],
+    "consultation_fee": {
+      "amount": 390,
+      "currency": "BDT",
+      "vat_included": true,
+      "note": "Per consultation"
+    },
+    "working_at": "Dhaka Medical College Hospital",
+    "profile_image": "niloy_rahman.png"
+  },
+  {
+    "name": "Dr. Rakibul Islam",
+    "qualifications": ["MBBS", "MS - Orthopedics"],
+    "registration_no": "BD 12451263",
+    "experience": "10+ Years",
+    "availability": ["Available", "Tuesday", "Friday"],
+    "consultation_fee": {
+      "amount": 370,
+      "currency": "BDT",
+      "vat_included": true,
+      "note": "Per consultation"
+    },
+    "working_at": "Bangladesh Orthopedic Hospital",
+    "profile_image": "rakibul_islam.png"
+  },
+
+  // Add 20 more male doctors with Bangladeshi names, similar to above
+  {
+    "name": "Dr. Shakil Mahmud",
+    "qualifications": ["MBBS", "FCPS - Psychiatry"],
+    "registration_no": "BD 12451264",
+    "experience": "14+ Years",
+    "availability": ["Available", "Monday", "Wednesday"],
+    "consultation_fee": {
+      "amount": 360,
+      "currency": "BDT",
+      "vat_included": true,
+      "note": "Per consultation"
+    },
+    "working_at": "National Mental Health Institute",
+    "profile_image": "shakil_mahmud.png"
+  },
+  {
+    "name": "Dr. Azim Uddin",
+    "qualifications": ["MBBS", "MS - Urology"],
+    "registration_no": "BD 12451265",
+    "experience": "12+ Years",
+    "availability": ["Available", "Sunday", "Tuesday"],
+    "consultation_fee": {
+      "amount": 390,
+      "currency": "BDT",
+      "vat_included": true,
+      "note": "Per consultation"
+    },
+    "working_at": "Dhaka Central Hospital",
+    "profile_image": "azim_uddin.png"
+  },
+  {
+    "name": "Dr. Fardin Rahim",
+    "qualifications": ["MBBS", "MD - Cardiology"],
+    "registration_no": "BD 12451266",
+    "experience": "6+ Years",
+    "availability": ["Available", "Monday", "Thursday"],
+    "consultation_fee": {
+      "amount": 410,
+      "currency": "BDT",
+      "vat_included": true,
+      "note": "Per consultation"
+    },
+    "working_at": "Bangabandhu Sheikh Mujib Medical University",
+    "profile_image": "fardin_rahim.png"
+  },
+  {
+    "name": "Dr. Asif Rahman",
+    "qualifications": ["MBBS", "MS - ENT"],
+    "registration_no": "BD 12451267",
+    "experience": "9+ Years",
+    "availability": ["Available", "Sunday", "Tuesday"],
+    "consultation_fee": {
+      "amount": 355,
+      "currency": "BDT",
+      "vat_included": true,
+      "note": "Per consultation"
+    },
+    "working_at": "National ENT Institute",
+    "profile_image": "asif_rahman.png"
+  },
+  {
+    "name": "Dr. Sadiq Nawaz",
+    "qualifications": ["MBBS", "MS - General Surgery"],
+    "registration_no": "BD 12451268",
+    "experience": "10+ Years",
+    "availability": ["Available", "Tuesday", "Friday"],
+    "consultation_fee": {
+      "amount": 420,
+      "currency": "BDT",
+      "vat_included": true,
+      "note": "Per consultation"
+    },
+    "working_at": "Dhaka Medical College Hospital",
+    "profile_image": "sadiq_nawaz.png"
+  }
+]

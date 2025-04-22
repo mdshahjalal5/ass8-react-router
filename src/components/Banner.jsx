@@ -4,7 +4,7 @@ import InputComp from "./Input";
 
 const Banner = () => {
   return (
-    <div className="sm:p-9 px-16 border-x-[4px] border-t-[4px] border-[#dbeafe] bg-gray-100 rounded-xl">
+    <div className="sm:p-9 p-2 sm:px-16  border-x-[4px] border-t-[4px] border-[#dbeafe] bg-gray-100 rounded-xl mt-5">
       <h1 className="text-gray-600 w-5/6 mx-auto">
         Our platform connects you with verified, experienced doctors across
         various specialties — all at your convenience. Whether it's a routine
