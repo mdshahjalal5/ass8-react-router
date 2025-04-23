@@ -9,7 +9,6 @@ const Layout = () => {
       <EnterAnimation className="sticky z-[1000] top-4">
         <Nav />
       </EnterAnimation>
-      <Header />
 
       <main className="min-h-[30vh] max-container">
         <Outlet />

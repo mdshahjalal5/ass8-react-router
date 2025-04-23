@@ -1,8 +1,10 @@
 import Button from "./Button";
 
 import { doctor1 } from "../assets/doctorProfile/index.js";
+import { useNavigate } from "react-router-dom";
 
 const Doctor = ({ doctor }) => {
+  const navigate = useNavigate();
   const {
     name,
     qualifications,
@@ -24,7 +26,7 @@ const Doctor = ({ doctor }) => {
         />
         <div className="flex gap-6  w-full">
           <div
-            // onClick={() => navigate("/my-bookings")}
+            onClick={() => navigate(`/doctor/${doctor.id}`)}
             className="flex-1 border "
           >
             <Button

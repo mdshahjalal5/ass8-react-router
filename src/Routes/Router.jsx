@@ -3,6 +3,7 @@ import App from "../App";
 import Layout from "../Layout/Layout";
 import Errorpage from "../components/Errorpage";
 import Doctors from "../components/Doctors";
+import DoctorDetails from "../components/DoctorDetails";
 
 export const router = createBrowserRouter([
   {
@@ -16,7 +17,12 @@ export const router = createBrowserRouter([
       },
       {
         path: "/my-bookings",
-        element: <Doctors />,
+        // element: <Doctors />,
+      },
+      {
+        path: "/doctor/:id",
+        loader: () => fetch("data.json"),
+        element: <DoctorDetails />,
       },
     ],
   },

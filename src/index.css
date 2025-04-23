@@ -17,6 +17,10 @@
   .max-container {
     @apply max-w-[1440px] mx-auto max-sm:px-1 sm:px-8;
   }
+
+  .grad-orange {
+    @apply bg-gradient-to-r from-sky-100 to-red-100;
+  }
 }
 
 .active {
