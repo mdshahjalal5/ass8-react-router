@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const FooterLinks = () => {
   return (
-    <div className="flex gap-7 justify-center ">
+    <div className="flex gap-7 justify-center max-sm:gap-3 ">
       <Link className="border p-2 rounded-full bg-blue-300">
         <Facebook />
       </Link>

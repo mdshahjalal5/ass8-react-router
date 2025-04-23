@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Dr. Ahmed Riaz",
+    "qualifications": ["MBBS", "FCPS Medicine"],
+    "registrationno": "BD 11234567",
+    "experience": "7 Years",
+    "availability": ["Available", "Monday", "Wednesday", "Saturday"],
+    "consultationFee": 300,
+    "workingAt": "Dhaka Medical College Hospital",
+    "profileImage": "doctor1.jpg"
+  },
+  {
+    "name": "Dr. Mohammad Kamal",
+    "qualifications": ["MBBS", "MD Cardiology"],
+    "registrationno": "BD 12345678",
+    "experience": "10 Years",
+    "availability": ["Available", "Sunday", "Tuesday", "Friday"],
+    "consultationFee": 350,
+    "workingAt": "United Hospital, Dhaka",
+    "profileImage": "doctor2.jpg"
+  },
+  {
+    "name": "Dr. Saiful Islam",
+    "qualifications": ["MBBS", "MS Orthopedics"],
+    "registrationno": "BD 13456789",
+    "experience": "8 Years",
+    "availability": ["Available", "Monday", "Thursday"],
+    "consultationFee": 320,
+    "workingAt": "Square Hospital, Dhaka",
+    "profileImage": "doctor3.jpg"
+  },
+  {
+    "name": "Dr. Khalid Hossain",
+    "qualifications": ["MBBS", "MD Internal Medicine"],
+    "registrationno": "BD 14567890",
+    "experience": "6 Years",
+    "availability": ["Available", "Wednesday", "Friday"],
+    "consultationFee": 290,
+    "workingAt": "Evercare Hospital, Dhaka",
+    "profileImage": "doctor4.jpg"
+  },
+  {
+    "name": "Dr. Mahmud Rahman",
+    "qualifications": ["MBBS", "FCPS Surgery"],
+    "registrationno": "BD 15678901",
+    "experience": "12 Years",
+    "availability": ["Available", "Sunday", "Tuesday", "Thursday"],
+    "consultationFee": 400,
+    "workingAt": "Bangabandhu Sheikh Mujib Medical University",
+    "profileImage": "doctor5.jpg"
+  },
+  {
+    "name": "Dr. Imran Hossain",
+    "qualifications": ["MBBS", "MD Pediatrics"],
+    "registrationno": "BD 16789012",
+    "experience": "9 Years",
+    "availability": ["Available", "Monday", "Wednesday", "Friday"],
+    "consultationFee": 310,
+    "workingAt": "Chittagong Medical College Hospital",
+    "profileImage": "doctor6.jpg"
+  },
+  {
+    "name": "Dr. Tareq Aziz",
+    "qualifications": ["MBBS", "DGO", "FCPS Gynecology"],
+    "registrationno": "BD 17890123",
+    "experience": "11 Years",
+    "availability": ["Available", "Tuesday", "Thursday"],
+    "consultationFee": 330,
+    "workingAt": "Rajshahi Medical College Hospital",
+    "profileImage": "doctor7.jpg"
+  },
+  {
+    "name": "Dr. Nayeem Haque",
+    "qualifications": ["MBBS", "MD Neurology"],
+    "registrationno": "BD 18901234",
+    "experience": "7 Years",
+    "availability": ["Available", "Sunday", "Wednesday"],
+    "consultationFee": 345,
+    "workingAt": "Ibrahim Cardiac Hospital & Research Institute",
+    "profileImage": "doctor8.jpg"
+  },
+  {
+    "name": "Dr. Farid Uddin",
+    "qualifications": ["MBBS", "MD Dermatology"],
+    "registrationno": "BD 19012345",
+    "experience": "6 Years",
+    "availability": ["Available", "Monday", "Thursday", "Saturday"],
+    "consultationFee": 295,
+    "workingAt": "Popular Diagnostic Centre, Dhanmondi",
+    "profileImage": "doctor9.jpg"
+  },
+  {
+    "name": "Dr. Anisur Rahman",
+    "qualifications": ["MBBS", "FCPS ENT"],
+    "registrationno": "BD 10123456",
+    "experience": "5 Years",
+    "availability": ["Available", "Tuesday", "Friday"],
+    "consultationFee": 280,
+    "workingAt": "National ENT Hospital, Dhaka",
+    "profileImage": "doctor10.jpg"
+  }
+]
