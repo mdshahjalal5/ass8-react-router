@@ -2,14 +2,43 @@ import { Link, useLoaderData, useNavigate, useParams } from "react-router-dom";
 import { doctor1 } from "../assets";
 import Button from "./Button";
 import storage from "../utils.localStorage";
+import { useEffect, useState } from "react";
+import toast from "react-hot-toast";
 
 const DoctorDetails = () => {
-  const navigate = useNavigate();
-  const doctors = useLoaderData();
   const { id } = useParams();
+  console.log(id, "DoctorDetails.jsx", 9);
 
-  const doctor = doctors.find((doctor) => doctor.id == id);
-  console.log(doctor, "doctorDetails.jsx", 5);
+  const navigate = useNavigate();
+
+  const doctors2 = useLoaderData();
+  const booked = storage.get("ids");
+
+  const [doctors, setDoctors] = useState([]);
+  // console.log(doctors, "DoctorDetails.jsx", 15);
+  useEffect(() => {
+    fetch("data.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setDoctors(data);
+      })
+      .catch((error) => {
+        console.info("Error fetching doctors:", error);
+      });
+  }, []);
+
+  const handleAppointment = (id) => {
+    if (booked?.find((bookedId) => bookedId == id)) {
+      console.log(booked, "DoctorDetails.jsx", 30);
+      toast.error("You have already booked this appointment");
+      return;
+    }
+    storage.addToArray("ids", id);
+    navigate("/my-bookings");
+  };
+  // console.log(doctors, "Booked.jsx", 6);
+
+  const doctor = doctors2.find((doctor) => doctor.id == id);
 
   const {
     name,
@@ -92,8 +121,7 @@ const DoctorDetails = () => {
         <div className="w-full">
           <div
             onClick={() => {
-              storage.addToArray("ids", id);
-              navigate("/my-bookings");
+              handleAppointment(id);
             }}
             className="flex-1 border "
           >

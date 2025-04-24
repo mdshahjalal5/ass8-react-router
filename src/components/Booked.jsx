@@ -1,8 +1,10 @@
 import storage from "../utils.localStorage";
 import { useEffect, useState } from "react";
 import Button from "./Button";
+import { useNavigate } from "react-router-dom";
 
 const Booked = () => {
+  const navigate = useNavigate();
   const [doctors, setDoctors] = useState([]);
 
   const handeCancelAppointment = (id) => {
@@ -23,29 +25,46 @@ const Booked = () => {
       });
   }, []);
   const booked = storage.get("ids");
-  console.log(booked, "Booked.jsx", 8);
 
   const bookedDoctor = doctors?.filter((doctor) =>
     booked.includes(`${doctor.id}`),
   );
-  console.log(bookedDoctor, "Booked.jsx", 11);
 
   return (
     <>
-      <div className="flex flex-col justify-center items-center">
-        <h2 className="text-3xl font-semibold font-courgette text-purple-800 drop-shadow-lg">
-          My Today Appointments
-        </h2>
-        <p className="text-gray-500 drop-shadow-lg">
-          Our platform connects you with verified, experienced doctors across
-          various specialties — all at your convenience.
-        </p>
-      </div>
+      {!bookedDoctor.length == 0 && (
+        <div className="flex flex-col justify-center items-center">
+          <h2 className="text-3xl font-semibold font-courgette text-purple-800 drop-shadow-lg">
+            My Today Appointments
+          </h2>
+          <p className="text-gray-500 drop-shadow-lg">
+            Our platform connects you with verified, experienced doctors across
+            various specialties — all at your convenience.
+          </p>
+        </div>
+      )}
+      {bookedDoctor.length === 0 && (
+        <div className="flex flex-col justify-center items-center drop-shadow-lg border p-4 rounded-xl bg-gray-50">
+          <h2 className="text-3xl font-semibold font-courgette text-purple-800 drop-shadow-lg">
+            You have not booked any appointment.
+          </h2>
+          <p className="text-gray-500 drop-shadow-lg">
+            Our platform connects you with verified, experienced doctors across
+            various specialties — all at your convenience.
+          </p>
+          <div onClick={() => navigate("/")}>
+            <Button label={"Booked Now"} />
+          </div>
+        </div>
+      )}
 
-      {bookedDoctor.map((appointment) => {
+      {bookedDoctor.map((appointment, idx) => {
         return (
           <>
-            <div className="p-7 rounded-2xl drop-shadow-2xl border bg-gradient-to-b from-gray-100 to-gray-300 space-y-3 mt-9">
+            <div
+              key={idx}
+              className="p-7 rounded-2xl drop-shadow-2xl border bg-gradient-to-b from-gray-100 to-gray-300 space-y-3 mt-9"
+            >
               <div className="flex justify-between border-t-[3px] border-b-[3px] border-gray-400 py-2 px-4 border-dotted">
                 <div>
                   <h2 className="font-semibold text-xl">{appointment?.name}</h2>

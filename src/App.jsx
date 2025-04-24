@@ -5,7 +5,6 @@ import Header from "./components/Header";
 
 const App = () => {
   const [doctors, setDoctors] = useState([]);
-  console.log(doctors, "Doctors.jsx", 5);
 
   useEffect(() => {
     fetch("data.json")
