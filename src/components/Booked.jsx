@@ -27,13 +27,13 @@ const Booked = () => {
   const booked = storage.get("ids");
 
   const bookedDoctor = doctors?.filter((doctor) =>
-    booked.includes(`${doctor.id}`),
+    booked?.includes(`${doctor.id}`),
   );
 
   return (
     <>
       {!bookedDoctor.length == 0 && (
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center ">
           <h2 className="text-3xl font-semibold font-courgette text-purple-800 drop-shadow-lg">
             My Today Appointments
           </h2>
@@ -44,16 +44,17 @@ const Booked = () => {
         </div>
       )}
       {bookedDoctor.length === 0 && (
-        <div className="flex flex-col justify-center items-center drop-shadow-lg border p-4 rounded-xl bg-gray-50">
+        <div className="flex flex-col justify-center items-center drop-shadow-lg border py-4 px-7 rounded-xl bg-gray-50 mt-10 min-h-[60vh] space-y-9">
           <h2 className="text-3xl font-semibold font-courgette text-purple-800 drop-shadow-lg">
-            You have not booked any appointment.
+            <span className="font-sans">Y</span>ou have not booked any
+            appointment.
           </h2>
           <p className="text-gray-500 drop-shadow-lg">
             Our platform connects you with verified, experienced doctors across
             various specialties — all at your convenience.
           </p>
           <div onClick={() => navigate("/")}>
-            <Button label={"Booked Now"} />
+            <Button label={"Book Now"} className={"text-white"} />
           </div>
         </div>
       )}

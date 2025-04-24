@@ -5,7 +5,7 @@ import EnterAnimation from "../animation/EnterAnimation";
 const Layout = () => {
   return (
     <>
-      <EnterAnimation className="sticky z-[1000] top-4">
+      <EnterAnimation className="sticky z-[1000] top-[1px]">
         <Nav />
       </EnterAnimation>
 

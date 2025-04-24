@@ -16,11 +16,11 @@ const Doctor = ({ doctor }) => {
     profileImage,
   } = doctor;
   return (
-    <div className="flex-center  flex-col  border border-red-500">
-      <div className="flex flex-col  w-full px-4 py-3 rounded-2xl drop-shadow-2xl space-y-2 bg-gray-200">
+    <div className="flex-center  flex-col">
+      <div className="flex flex-col  w-full px-3 sm:px-7   py-3 rounded-2xl drop-shadow-2xl space-y-2 bg-gray-200">
         <img
-          src={doctor1}
-          className="max--[250px] rounded-2xl drop-shadow-2xl"
+          src={profileImage}
+          className="rounded-2xl drop-shadow-2xl max-sm:max-w-[300px]"
         />
         <div className="flex justify-start gap-5 items-center">
           <span className="rounded-full px-2 py-1 border text-green-500   grad-orange">

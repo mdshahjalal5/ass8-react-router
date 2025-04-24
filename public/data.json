@@ -8,7 +8,7 @@
     "availability": ["Available", "Monday", "Wednesday", "Saturday"],
     "consultationFee": 500,
     "workingAt": "Dhaka Medical College Hospital",
-    "profileImage": "doctor1.jpg"
+    "profileImage": "https://images.deepai.org/art-image/808acf6604b14c3cb5c8da31b5366236/bangladeshi-male-orthopedic-doctor-with-arms-crossed-.jpg"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "availability": ["Available", "Sunday", "Tuesday", "Friday"],
     "consultationFee": 600,
     "workingAt": "United Hospital, Dhaka",
-    "profileImage": "doctor2.jpg"
+    "profileImage": "https://images.deepai.org/art-image/2946d60485a5493da5e2060b465cd585/bangladeshi-male-orthopedic-doctor-with-arms-crossed-.jpg"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "availability": ["Available", "Monday", "Thursday"],
     "consultationFee": 700,
     "workingAt": "Square Hospital, Dhaka",
-    "profileImage": "doctor3.jpg"
+    "profileImage": "https://images.deepai.org/art-image/c7a6b1952f5b427e81b5ba26ac2d469c/bangladeshi-male-orthopedic-doctor-with-arms-crossed-.jpg"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "availability": ["Available", "Wednesday", "Friday"],
     "consultationFee": 800,
     "workingAt": "Evercare Hospital, Dhaka",
-    "profileImage": "doctor4.jpg"
+    "profileImage": "https://images.deepai.org/art-image/1e6600f09b1c45a0a43d0214aa920db2/male-doctor-with-south-asian-features-wearing-white-c.jpg"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "availability": ["Available", "Sunday", "Tuesday", "Thursday"],
     "consultationFee": 900,
     "workingAt": "Bangabandhu Sheikh Mujib Medical University",
-    "profileImage": "doctor5.jpg"
+    "profileImage": "https://images.deepai.org/art-image/6512e6c4b77442eda4ca44bcf7d031ed/bangladeshi-middle-aged-male-cardiologist-in-stethosc.jpg"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "availability": ["Available", "Monday", "Wednesday", "Friday"],
     "consultationFee": 700,
     "workingAt": "Chittagong Medical College Hospital",
-    "profileImage": "doctor6.jpg"
+    "profileImage": "https://images.deepai.org/art-image/c243fe081ca64830a03b6bbcfaf1b9b5/bangladeshi-male-physician-in-white-coat-with-clipboa.jpg"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "availability": ["Available", "Tuesday", "Thursday"],
     "consultationFee": 900,
     "workingAt": "Rajshahi Medical College Hospital",
-    "profileImage": "doctor7.jpg"
+    "profileImage": "https://images.deepai.org/art-image/f97a31f3399943e58affd28d7c80c2ec/bangladeshi-young-male-dermatologist-light-makeup-med.jpg"
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "availability": ["Available", "Sunday", "Wednesday"],
     "consultationFee": 1500,
     "workingAt": "Ibrahim Cardiac Hospital & Research Institute",
-    "profileImage": "doctor8.jpg"
+    "profileImage": "https://images.deepai.org/art-image/d03f52bef0c4440b92bb27fbe593be63/bangladeshi-male-surgeon-with-confident-expression-bl.jpg"
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
     "availability": ["Available", "Monday", "Thursday", "Saturday"],
     "consultationFee": 1200,
     "workingAt": "Popular Diagnostic Centre, Dhanmondi",
-    "profileImage": "doctor9.jpg"
+    "profileImage": "https://images.deepai.org/art-image/b0b89dd7b6964cc9a96af6635da6dec5/male-doctor-with-a-stethoscope-white-coat-arms-crosse.jpg"
   },
   {
     "id": 10,
@@ -107,6 +107,6 @@
     "availability": ["Available", "Tuesday", "Friday"],
     "consultationFee": 700,
     "workingAt": "National ENT Hospital, Dhaka",
-    "profileImage": "doctor10.jpg"
+    "profileImage": "https://images.deepai.org/art-image/8a937e7e717541578dd230bdc6121087/male-doctor-with-a-stethoscope-white-coat-arms-crosse.jpg"
   }
 ]

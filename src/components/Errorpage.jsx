@@ -21,16 +21,16 @@ const Errorpage = () => {
             className="max-w-[400px] rounded-2xl drop-shadow-2xl"
           />
           <div className="flex gap-6  w-full">
-            <div
-              onClick={() => navigate("/my-bookings")}
-              className="flex-1 border "
-            >
-              <Button label={"My Bookings"} className={"transform  w-full"} />
+            <div onClick={() => navigate("/")} className="flex-1 border ">
+              <Button
+                label={"Go Home"}
+                className={"transform  w-full text-white"}
+              />
             </div>
             <div className="flex-1 " onClick={() => navigate(navigate(-1))}>
               <Button
                 label={"Go Back"}
-                className={"transform  flex-1 w-full"}
+                className={"transform  flex-1 w-full text-white"}
               />
             </div>
           </div>

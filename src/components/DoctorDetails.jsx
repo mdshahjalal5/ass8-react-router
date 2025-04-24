@@ -1,5 +1,4 @@
-import { Link, useLoaderData, useNavigate, useParams } from "react-router-dom";
-import { doctor1 } from "../assets";
+import { useLoaderData, useNavigate, useParams } from "react-router-dom";
 import Button from "./Button";
 import storage from "../utils.localStorage";
 import { useEffect, useState } from "react";
@@ -66,7 +65,7 @@ const DoctorDetails = () => {
       <div className="sm:flex items-center gap-7 md:gap-16 sm:p-10 p-2 rounded-2xl drop-shadow-2xl space-y-9 bg-gray-200">
         <div className="">
           <img
-            src={doctor1}
+            src={profileImage}
             className="max-w-[400px] rounded-2xl drop-shadow-2xl"
           />
         </div>
