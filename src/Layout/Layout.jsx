@@ -9,7 +9,7 @@ const Layout = () => {
         <Nav />
       </EnterAnimation>
 
-      <main className="min-h-[30vh] max-container">
+      <main className="min-h-[60vh] max-container">
         <Outlet />
       </main>
       <Footer />

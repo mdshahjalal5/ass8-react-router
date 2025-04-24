@@ -33,7 +33,7 @@ const Booked = () => {
   return (
     <>
       {!bookedDoctor.length == 0 && (
-        <div className="flex flex-col justify-center items-center ">
+        <div className="flex flex-col justify-center items-center mt-10">
           <h2 className="text-3xl font-semibold font-courgette text-purple-800 drop-shadow-lg">
             My Today Appointments
           </h2>
