@@ -21,6 +21,9 @@
   .grad-orange {
     @apply bg-gradient-to-r from-sky-100 to-red-100;
   }
+  .grad-2 {
+    @apply bg-gradient-to-l from-purple-100 to-purple-50;
+  }
 }
 
 .active {

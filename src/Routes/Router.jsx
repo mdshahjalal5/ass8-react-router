@@ -5,6 +5,7 @@ import Errorpage from "../components/Errorpage";
 import Doctors from "../components/Doctors";
 import DoctorDetails from "../components/DoctorDetails";
 import Booked from "../components/Booked";
+import Blog from "../components/Blog";
 
 export const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ export const router = createBrowserRouter([
         path: "/doctor/:id",
         loader: () => fetch("data.json"),
         element: <DoctorDetails />,
+      },
+      {
+        path: "/blogs",
+        element: <Blog />,
       },
     ],
   },

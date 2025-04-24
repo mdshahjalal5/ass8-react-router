@@ -18,7 +18,7 @@ const Nav = () => {
 
         <div className="relative">
           <div className="max-sm:hidden">
-            <Button label={"Emergency"} />
+            <Button label={"Emergency"} className={"text-white"} />
           </div>
           <div onClick={() => setOpen(!open)} className="sm:hidden border">
             <button>

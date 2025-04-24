@@ -33,6 +33,7 @@ const DoctorDetails = () => {
       toast.error("You have already booked this appointment");
       return;
     }
+    toast.success(`${name} is Booked successfully`);
     storage.addToArray("ids", id);
     navigate("/my-bookings");
   };
@@ -128,7 +129,7 @@ const DoctorDetails = () => {
             <Button
               label={"Book an appointment now"}
               className={
-                "transform  w-full bg-transparent border border-blue-500 text-orange-400 text-black capitalize bg-sky-900 hover:bg-sky-800 active:bg-sky-700 focus:ring "
+                "transform  w-full bg-sky-700 border border-blue-500 text-orange-400 text-white capitalize bg-sky-900 hover:bg-sky-800 active:bg-sky-700 focus:ring "
               }
             />
           </div>

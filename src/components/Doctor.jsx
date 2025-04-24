@@ -16,14 +16,32 @@ const Doctor = ({ doctor }) => {
     profileImage,
   } = doctor;
   return (
-    <div className="flex-center in-h-[90vh] flex-col  ">
-      <div className="flex-center  flex-col   sm:p-10 rounded-2xl drop-shadow-2xl space-y-9 bg-gray-200">
-        <h1 className="text-red-500 text-2xl">{name}</h1>
-
+    <div className="flex-center  flex-col  border border-red-500">
+      <div className="flex flex-col  w-full px-4 py-3 rounded-2xl drop-shadow-2xl space-y-2 bg-gray-200">
         <img
           src={doctor1}
-          className="max-w-[400px] rounded-2xl drop-shadow-2xl"
+          className="max--[250px] rounded-2xl drop-shadow-2xl"
         />
+        <div className="flex justify-start gap-5 items-center">
+          <span className="rounded-full px-2 py-1 border text-green-500   grad-orange">
+            {availability[0]}
+          </span>
+          <span className="rounded-full px-2 py-1 border text-green-500  grad-orange">
+            {experience}+ experience
+          </span>
+        </div>
+        <h1 className="text-purple-500 text-2xl">{name}</h1>
+        <p className="space-x-3 text-gray-500 text-lg">
+          {qualifications.map((qualification, index) => (
+            <span key={index}>{qualification}</span>
+          ))}
+        </p>
+        <div>
+          <h3 className="text-xl text-gray-500 border-gray-500 border-t-[2px]  border-dotted p-2 mt-5">
+            Register No: {registrationno}
+          </h3>
+        </div>
+
         <div className="flex gap-6  w-full">
           <div
             onClick={() => navigate(`/doctor/${doctor.id}`)}
@@ -32,7 +50,7 @@ const Doctor = ({ doctor }) => {
             <Button
               label={"View Details"}
               className={
-                "transform  w-full bg-transparent border border-blue-500 text-orange-400"
+                "transform  w-full bg-transparent border border-blue-500 font-sans"
               }
             />
           </div>
