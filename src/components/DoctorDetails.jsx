@@ -1,8 +1,10 @@
-import { useLoaderData, useParams } from "react-router-dom";
+import { Link, useLoaderData, useNavigate, useParams } from "react-router-dom";
 import { doctor1 } from "../assets";
 import Button from "./Button";
+import storage from "../utils.localStorage";
 
 const DoctorDetails = () => {
+  const navigate = useNavigate();
   const doctors = useLoaderData();
   const { id } = useParams();
 
@@ -15,6 +17,7 @@ const DoctorDetails = () => {
     registrationno,
     availability,
     workingAt,
+    consultationFee,
     profileImage,
   } = doctor;
 
@@ -66,7 +69,8 @@ const DoctorDetails = () => {
           </div>
           <p className="text-gray-700">
             <span className="text-lg font-semibold">Consultation Fee:</span>{" "}
-            <span className="text-blue-500">Taka: 273</span> {"  "} (incl. Vat)
+            <span className="text-blue-500">Taka: {consultationFee}</span>{" "}
+            {"  "} (incl. Vat)
             <span className="text-blue-500"> Per consultation</span>
           </p>
         </div>
@@ -75,7 +79,7 @@ const DoctorDetails = () => {
         <h2 className="text-2xl  text-gray-600 text-center">
           Book an Appointment
         </h2>
-        <div className="flex justify-between">
+        <div className="flex justify-between border-t-[3px] border-b-[3px] border-gray-400 py-2 px-4 border-dotted">
           <h2 className="font-semibold text-xl">Availability</h2>
           <p className="border border-green-300 px-4 py-1 rounded-full bg-green-200">
             Doctor available today
@@ -87,7 +91,10 @@ const DoctorDetails = () => {
         </p>
         <div className="w-full">
           <div
-            // onClick={() => navigate(`/doctor/${doctor.id}`)}
+            onClick={() => {
+              storage.addToArray("ids", id);
+              navigate("/my-bookings");
+            }}
             className="flex-1 border "
           >
             <Button

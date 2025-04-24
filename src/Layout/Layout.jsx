@@ -1,7 +1,6 @@
 import { Outlet } from "react-router-dom";
 import { Nav, Footer } from "../components/Index";
 import EnterAnimation from "../animation/EnterAnimation";
-import Header from "../components/Header";
 
 const Layout = () => {
   return (
@@ -19,3 +18,5 @@ const Layout = () => {
 };
 
 export default Layout;
+
+// 28 date xm

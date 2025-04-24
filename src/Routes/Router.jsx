@@ -4,6 +4,7 @@ import Layout from "../Layout/Layout";
 import Errorpage from "../components/Errorpage";
 import Doctors from "../components/Doctors";
 import DoctorDetails from "../components/DoctorDetails";
+import Booked from "../components/Booked";
 
 export const router = createBrowserRouter([
   {
@@ -17,7 +18,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/my-bookings",
-        // element: <Doctors />,
+        element: <Booked />,
       },
       {
         path: "/doctor/:id",

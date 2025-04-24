@@ -6,7 +6,7 @@
     "registrationno": "BD 11234567",
     "experience": "7 Years",
     "availability": ["Available", "Monday", "Wednesday", "Saturday"],
-    "consultationFee": 300,
+    "consultationFee": 500,
     "workingAt": "Dhaka Medical College Hospital",
     "profileImage": "doctor1.jpg"
   },
@@ -17,7 +17,7 @@
     "registrationno": "BD 12345678",
     "experience": "10 Years",
     "availability": ["Available", "Sunday", "Tuesday", "Friday"],
-    "consultationFee": 350,
+    "consultationFee": 600,
     "workingAt": "United Hospital, Dhaka",
     "profileImage": "doctor2.jpg"
   },
@@ -28,7 +28,7 @@
     "registrationno": "BD 13456789",
     "experience": "8 Years",
     "availability": ["Available", "Monday", "Thursday"],
-    "consultationFee": 320,
+    "consultationFee": 700,
     "workingAt": "Square Hospital, Dhaka",
     "profileImage": "doctor3.jpg"
   },
@@ -39,7 +39,7 @@
     "registrationno": "BD 14567890",
     "experience": "6 Years",
     "availability": ["Available", "Wednesday", "Friday"],
-    "consultationFee": 290,
+    "consultationFee": 800,
     "workingAt": "Evercare Hospital, Dhaka",
     "profileImage": "doctor4.jpg"
   },
@@ -50,7 +50,7 @@
     "registrationno": "BD 15678901",
     "experience": "12 Years",
     "availability": ["Available", "Sunday", "Tuesday", "Thursday"],
-    "consultationFee": 400,
+    "consultationFee": 900,
     "workingAt": "Bangabandhu Sheikh Mujib Medical University",
     "profileImage": "doctor5.jpg"
   },
@@ -61,7 +61,7 @@
     "registrationno": "BD 16789012",
     "experience": "9 Years",
     "availability": ["Available", "Monday", "Wednesday", "Friday"],
-    "consultationFee": 310,
+    "consultationFee": 700,
     "workingAt": "Chittagong Medical College Hospital",
     "profileImage": "doctor6.jpg"
   },
@@ -72,7 +72,7 @@
     "registrationno": "BD 17890123",
     "experience": "11 Years",
     "availability": ["Available", "Tuesday", "Thursday"],
-    "consultationFee": 330,
+    "consultationFee": 900,
     "workingAt": "Rajshahi Medical College Hospital",
     "profileImage": "doctor7.jpg"
   },
@@ -83,7 +83,7 @@
     "registrationno": "BD 18901234",
     "experience": "7 Years",
     "availability": ["Available", "Sunday", "Wednesday"],
-    "consultationFee": 345,
+    "consultationFee": 1500,
     "workingAt": "Ibrahim Cardiac Hospital & Research Institute",
     "profileImage": "doctor8.jpg"
   },
@@ -94,7 +94,7 @@
     "registrationno": "BD 19012345",
     "experience": "6 Years",
     "availability": ["Available", "Monday", "Thursday", "Saturday"],
-    "consultationFee": 295,
+    "consultationFee": 1200,
     "workingAt": "Popular Diagnostic Centre, Dhanmondi",
     "profileImage": "doctor9.jpg"
   },
@@ -105,7 +105,7 @@
     "registrationno": "BD 10123456",
     "experience": "5 Years",
     "availability": ["Available", "Tuesday", "Friday"],
-    "consultationFee": 280,
+    "consultationFee": 700,
     "workingAt": "National ENT Hospital, Dhaka",
     "profileImage": "doctor10.jpg"
   }
